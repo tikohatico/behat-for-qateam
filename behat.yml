@@ -1,0 +1,15 @@
+default:
+  suites:
+    default:
+      contexts:
+        - 'FeatureContext'
+  extensions:
+      Behat\MinkExtension:
+        base_url: 'http://google.com.ua'
+        selenium2: ~
+        goutte: ~
+        sessions:
+          javascript:
+            selenium2:
+              browser: firefox
+              wd_host: http://127.0.0.1:4444/wd/hub
