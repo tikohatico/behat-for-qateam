@@ -2,12 +2,12 @@
 # Here we could be able to add our behat achievements
 
 For setup the invironment:
-* Create folder where you can put you project
-* add in this folder composer.json file
-* install composer in this directory(without <code>sudo</code>, because it could broke composer path):
+* create folder where you can put you project
+* add into this folder composer.json file (which placed on this repo)
+* install composer into this directory (without <code>sudo</code>, because it could broke composer path):
 * <code>**curl -sS https://getcomposer.org/installer | php**</code>
 * <code>**php composer.phar install**</code>
-* change rights for the folder:
+* change rights for the project folder:
 * <code>**sudo chmod 777 - R {youDirectoryNameWithoutQuotes}/**</code>
 * create feature folder with this command:
 * <code>**behat --init**</code>
