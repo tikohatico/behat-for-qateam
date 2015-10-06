@@ -1,0 +1,12 @@
+Feature: Time
+  As a guy who know share a knowledge
+  I want employees with less then $300 salary
+  To learn how to use github
+  
+  Scenarios: File is saved once commited
+    Given I am logged in into github
+    Given I am at creating new file form
+    When I fill body with "$this"
+    And I fill commit description
+    And press "Commit new file"
+    
