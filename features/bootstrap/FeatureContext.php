@@ -17,7 +17,7 @@ class FeatureContext extends MinkContext
         $this->visit($arg1);
     }
     /**
-     * @Given I am searching for :arg2
+     * @And I am searching for :arg2
      */
     public function iAmSearchingFor($arg2) //Searching...
     {
